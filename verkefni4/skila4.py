@@ -32,7 +32,9 @@ def heilda(fall):
             lidur.append(x + "*(x)")
     for x in range(len(lidur)):
         strengur = strengur + formerki[x] + lidur[x]
+        
     return strengur
+
 
 def flatarmal(fall, efri, nedri):
     nytt_fall = heilda(fall)
