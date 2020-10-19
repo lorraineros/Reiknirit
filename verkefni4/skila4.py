@@ -41,6 +41,7 @@ def flatarmal(fall, efri, nedri):
     m_a = nytt_fall.replace("x", efri)
     m_b = nytt_fall.replace("x", nedri)
     flatarmal = abs(eval(m_a)-eval(m_b))
+    
     return flatarmal
 
 """
